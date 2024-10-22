@@ -6,12 +6,12 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>Title</title>
     <style>
-        a{
+        a {
             text-decoration: none;
             color: black;
         }
@@ -33,12 +33,12 @@
     <input type="text" name="tim">
     <button type="submit">Search</button>
 </form>
-<form action="/getAll" method="post" >
-    <input type="text" placeholder="Nhap ma" name="ma" >
+<form action="/getAll" method="post">
+    <input type="text" placeholder="Nhap ma" name="ma">
     <input type="text" placeholder="Nhap tong tien" name="tongTien" required>
     <input type="text" placeholder="Nhap tien thua" name="tienThua" required>
     <input type="text" placeholder="Nhap ghi chu" name="ghiChu" required>
-    <input type="text" placeholder="Nhap ma gd"  name="maGD" required>
+    <input type="text" placeholder="Nhap ma gd" name="maGD" required>
     <button type="submit" value="add" name="action">Add</button>
 </form>
 <table>
